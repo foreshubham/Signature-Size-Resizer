@@ -18,8 +18,8 @@ Many students and job seekers face issues when filling out forms that require si
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/image-resizer-cropper.git
-    cd image-resizer-cropper
+    git clone https://github.com/foreshubham/Signature-Size-Resizer.git
+    cd Signature-Size-Resizer
     ```
 
 2. Install dependencies:

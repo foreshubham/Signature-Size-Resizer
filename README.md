@@ -1,4 +1,4 @@
-# Signature Image Resizer 
+# Signature Image Resizer...
 
 This project is a React application that allows users to upload an image, crop it, and resize it to specific dimensions (6cm by 2cm). It also includes drag-and-drop functionality for image uploads and ensures the resized image is between 10KB and 20KB.
 

@@ -1,20 +1,23 @@
 // src/App.js
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom'; // Import Router
 import './App.css';
 import ImageResizer from './Component/ImageResizer';
 import Navbar from './Component/Navbar';
+import NewNavbar from './Component/NewNavbar'; 
 import Features from './Component/Features';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar/>
-        <ImageResizer />
-      </header>
-      <Features/>
-
-    </div>
+    <Router> {/* Wrap everything in Router */}
+      <div className="App">
+        <header className="App-header">
+          <NewNavbar />
+          <ImageResizer />
+        </header>
+        <Features />
+      </div>
+    </Router>
   );
 }
 

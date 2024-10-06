@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    background: #336E2E;
+    color: #fff;
+}
+
+main{
+    height: 95vh;
+    width: 95vw;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background: linear-gradient(140deg, #72A436, #336E2E);
+    border-radius: 5px;
+    display: flex;
+}
+
+section{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    width: 5%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to top, #5B9235, transparent);
+}
+
+aside .menu{
+    font-size: 30px;
+}
+
+.social-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    border: 1px solid #fff;
+    opacity: 0.8;
+}
+
+.social-icon a{
+    text-decoration: none;
+    color: #fff;
+}
+
+aside .social-bar{
+    height: 150px;
+    width: 1px;
+    background: #fff;
+    opacity: 0.7;
+}
+
+section nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    padding: 10px 20px;
+}
+
+nav .logo{
+    font-size: 18px;
+    margin-right: auto;
+}
+
+.logo span{
+    font-weight: 900;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+nav a:last-child{
+    margin-right: auto;
+}
+
+.container{
+    width: 100%;
+    height: 92%;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    height: 450px;
+    filter: drop-shadow(40px 50px 25px #112801);
+    z-index: 3;
+}
+
+.container h1{
+    position: absolute;
+    font-size: 200px;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-shadow: 2px 2px 2px #1128015b;
+    letter-spacing: 20px;
+    opacity: 0.9;
+}
+
+.container .b-pagination{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.container .b-pagination small{
+    font-size: 14px;
+    opacity: 0.8;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.container .b-pagination span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container .b-pagination .b-bar{
+    width: 250px;
+    height: 1px;
+    background: #fff;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+
+.container .heading{
+    font-size: 60px;
+    font-weight: 700;
+    opacity: 0.9;
+    text-shadow: 1px 1px 1px #112801;
+    margin-left: 8%;
+    line-height: 1;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+.container p{
+    width: 380px;
+    margin-left: 8%;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+button{
+    font-size: 12px;
+    margin-left: 8%;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: none;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .pagination{
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.pagination .bar{
+    width: 250px;
+    height: 1px;
+    background: #fff;
+    opacity: 0.7;
+}

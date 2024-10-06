@@ -1,0 +1,53 @@
+.nav {
+  color: #fff;
+  display: flex;
+  padding: 1rem 0 1rem 0;
+  align-items: center;
+  background-color: #1c1e25;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.733);
+}
+
+.logo > h1 {
+    color: #fff;
+  font-size: 1.6rem;
+}
+
+.links {
+  display: flex;
+  gap: clamp(1rem, 3vw, 2rem);
+  cursor: pointer;
+}
+.links > p {
+  cursor: pointer;
+  font-size: 1.03rem;
+}
+
+.social-icon {
+  display: flex;
+  gap: 20px;
+}
+.social-icon > p {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.toogle {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 1060px) {
+  .toogle {
+    display: none;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .nav {
+    justify-content: space-between;
+    padding: 0.5rem 2rem .8rem 2rem;
+  }
+  .links,
+  .social-icon {
+    display: none;
+  }
+}

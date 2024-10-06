@@ -2,8 +2,8 @@
 import React, { useState, useRef } from 'react';
 import Resizer from 'react-image-file-resizer';
 import Cropper from 'react-cropper';
+import './imageresizer.css';
 import 'cropperjs/dist/cropper.css';
-
 
 const ImageResizer = () => {
   const [image, setImage] = useState(null);
@@ -76,7 +76,7 @@ const ImageResizer = () => {
   };
 
   return (
-    <div>
+    <div className='main'>
       <h1>Resize Signature Image</h1>
       <input type="file" accept="image/*" onChange={handleImageUpload} />
       {image && (
@@ -99,7 +99,7 @@ const ImageResizer = () => {
         <div>
           <h2>Resized Image</h2>
           <img src={resizedImage} alt="Resized Signature" />
-          <button onClick={downloadImage}>Download Image</button>
+          <button className='button' onClick={downloadImage}>Download Image</button>
         </div>
       )}
     </div>

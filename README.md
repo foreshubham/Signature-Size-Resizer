@@ -60,3 +60,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Author
 
 - Shubham - [foreshubham](https://github.com/foreshubham)
+- Instagram - [sshubhmmmm](https://instagram.com/sshubhmmmm)

@@ -3,7 +3,6 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom'; // Import Router
 import './App.css';
 import ImageResizer from './Component/ImageResizer';
-import Navbar from './Component/Navbar';
 import NewNavbar from './Component/NewNavbar'; 
 import Features from './Component/Features';
 
